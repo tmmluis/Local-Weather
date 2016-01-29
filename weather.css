@@ -1,0 +1,60 @@
+#container {
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: rgba(32,32,32, 0.5);
+  font-family: "Lato",sans-serif;
+  color:  rgba(255, 255, 255, 0.9);
+}
+
+#location, #temperature, #weather {
+  text-align: center;
+}
+
+#location {
+  text-transform: capitalize;
+  font-size: 3em;
+}
+
+#temperature, #weather {
+  font-size: 1.5em;
+}
+
+#weatherIcon {
+  width: 72px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+
+.cloudy {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/cloud-icon.png);
+}
+
+.thunder {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/thunder-icon.png);
+}
+
+.rainy {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/light-showers-icon.png);
+}
+
+.clear-day {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/sun-icon.png);
+}
+
+.clear-night {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/Moon-icon.png);
+}
+
+.snowy {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/light-snow-icon.png);
+}
+
+body {
+  background-image: url(https://dl.dropboxusercontent.com/u/9721658/cloudy.jpg);
+  background-size: auto auto;
+  background-repeat: no-repeat;
+}
